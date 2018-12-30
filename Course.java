@@ -1,14 +1,6 @@
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 1
- * CSE214, R11 (Reed Gantz)
- */ 
-
 public class Course implements Cloneable {
 	/**
-	 *  Course contains general information such as course name, course code, course section, instructor, etc.
-	 *  Accessor and mutator methods have been provided.
+	 *  Course contains general information such as course name, course code, course section, instructor, etc
 	 */
 	
 	private String course;
@@ -17,14 +9,9 @@ public class Course implements Cloneable {
 	private byte section;
 	private String instructor;
 	
-	/**
-	 * Constructor for course
-	 */
 	public Course() {}
 	
 	/**
-	 * Constructor for course with parameters
-	 * 
 	 * @param course name of course
 	 * @param department name of department
 	 * @param code number for code
@@ -40,8 +27,6 @@ public class Course implements Cloneable {
 	}
 	
 	/**
-	 * Accessor method for course name
-	 * 
 	 * @return name of course
 	 */
 	public String getCourseName() {
@@ -49,8 +34,6 @@ public class Course implements Cloneable {
 	}
 	
 	/**
-	 * Mutator method for course name
-	 * 
 	 * @param course name of course
 	 */
 	public void setCourseName(String course) {
@@ -58,8 +41,6 @@ public class Course implements Cloneable {
 	}
 	
 	/**
-	 * Accessor method for department
-	 * 
 	 * @return name of department
 	 */
 	public String getDepartment() {
@@ -67,8 +48,6 @@ public class Course implements Cloneable {
 	}
 	
 	/**
-	 * Mutator method for department
-	 * 
 	 * @param department name of department
 	 */
 	public void setDepartment(String department) {
@@ -76,8 +55,6 @@ public class Course implements Cloneable {
 	}
 	
 	/**
-	 * Accessor method for code
-	 * 
 	 * @return number for code
 	 */
 	public int getCode() {
@@ -85,8 +62,6 @@ public class Course implements Cloneable {
 	}
 	
 	/**
-	 * Mutator method for code
-	 * 
 	 * @param code number for code
 	 */
 	public void setCode(int code) {
@@ -97,8 +72,6 @@ public class Course implements Cloneable {
 	}
 	
 	/**
-	 * Accessor method for section 
-	 * 
 	 * @return section number 
 	 */
 	public byte getSection() {
@@ -106,8 +79,6 @@ public class Course implements Cloneable {
 	}
 	
 	/**
-	 * Mutator method for section
-	 * 
 	 * @param section number for section
 	 */
 	public void setSection(byte section) {
@@ -118,8 +89,6 @@ public class Course implements Cloneable {
 	}
 	
 	/**
-	 * Accessor method for instructor
-	 * 
 	 * @return name of instructor
 	 */
 	public String getInstructor() {
@@ -127,8 +96,6 @@ public class Course implements Cloneable {
 	}
 	
 	/**
-	 * Mutator method for instructor
-	 * 
 	 * @param instructor name of instructor
 	 */
 	public void setInstructor(String instructor) {
