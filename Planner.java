@@ -1,9 +1,3 @@
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 1
- * CSE214, R11 (Reed Gantz)
- */ 
 public class Planner extends Course {
 	/**
 	 * Planner stores an ordered list of course objects
